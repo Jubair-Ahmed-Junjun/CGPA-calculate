@@ -1,0 +1,95 @@
+body{
+	background: #006666;
+	color: #ffffff;
+}
+
+/* Header*/
+
+nav{
+	height:auto;
+	width: 100%;
+	background: #0099cc;
+	display: flex;
+	
+	box-sizing: border-box;
+	z-index: 100;
+	transition: 0.5s;
+}
+
+h1{
+	font-size:40px;
+	font-family: "Apple-Chancery";
+	text-align: center;
+	color: #ffffff;
+	margin-top:7px; 
+}
+/*Main*/
+
+main table th{
+	color: #ffffff;
+}
+p b{
+	font-size: 50px;
+	font-family: "Apple-Chancery";
+    color: red;
+}
+p i{
+	margin-left: 120px;
+
+}
+
+p{
+	text-align: left;
+	margin-left: 70px;
+	color: white;
+	font-size: 20px;
+	margin-top: 100px;
+}
+.col{
+	background: #33cccc;
+	color: #000000;
+	border-radius: 10px;
+	width: 48%;
+	height: 258px;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	margin: 40px 0 48px 0;
+	border-width: 50%;
+	transition: 0.5%;
+}
+#container{
+	margin: auto;
+	width: 95%;
+	overflow: auto;
+	transition: 8.5%;
+}
+
+/*Table*/
+
+
+
+ /* Footer*/   
+
+footer{
+	text-align: center;
+	font-size: 22px;
+	background: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-family: "Apple-Chancery";
+	font-family:serif;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	margin-top: 100px;
+}
+
+label{
+	color: black;
+}
+
+.btn{
+ color: red;  
+}

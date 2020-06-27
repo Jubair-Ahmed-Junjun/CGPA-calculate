@@ -1,0 +1,71 @@
+table input{
+	width: 86%;
+	height: 38px;
+	background: white;
+	float: right;
+	transition: 8.5%;
+}
+.item{
+	font-weight: bold;
+	background: #33cccc;
+	color: #000000;
+}
+.item td{
+	text-align: left;
+}
+table .gridtable{
+	margin: 0 auto;
+	width: 95%;
+	overflow: auto;
+	font-family: "helvetica,arial,sans-serif";
+	font-size: 14px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	text-align: center;
+	transition: 0.5%;
+}
+table.gridtable th{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background: #0099cc;
+	border-radius: 6px;
+	text-align: center;
+	transition: 0.5%;
+	color: black;
+}
+table.gridtable td{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	border-radius: 6px;
+	transition: 0.5%;
+	color: black;
+}
+
+.breakrow{
+	font-weight: bold;
+	background: #33cccc;
+	transition: 0.5%;
+
+}
+tr.breakrow{
+	font-size: ;
+	transition: 0.5%;
+}
+.breakrow{
+	font-size: 12px;
+}
+.datarow{
+    background: lightgrey;
+    text-align: left;
+    display: none;
+    transition: 0.5%;
+}
+.datarow .sn{
+	text-align: center;
+}
